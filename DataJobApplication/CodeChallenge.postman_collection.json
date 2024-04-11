@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "58e78ba7-1b34-4043-bef9-6ca21ef2a300",
+		"name": "CodeChallenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17076998"
+	},
+	"item": [
+		{
+			"name": "1.GetAllDataJobs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44387/api/datajobs",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"datajobs"
+					]
+				},
+				"description": "Get All Data Jobs - GetAllDataJobs"
+			},
+			"response": []
+		},
+		{
+			"name": "2.GetDataJobById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/datajobs/getdatajobbyid?id=6df1d9a0-5b13-43f2-904c-0b9a2ad54bc6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"datajobs",
+						"getdatajobbyid"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "6df1d9a0-5b13-43f2-904c-0b9a2ad54bc6"
+						}
+					]
+				},
+				"description": "Get All Data Jobs - GetAllDataJobs"
+			},
+			"response": []
+		},
+		{
+			"name": "3.GetDataJobsByStatus",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/datajobs/getdatajobsbystatus?status=New",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"datajobs",
+						"getdatajobsbystatus"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "New"
+						}
+					]
+				},
+				"description": "Get All Data Jobs - GetAllDataJobs"
+			},
+			"response": []
+		},
+		{
+			"name": "4.GetBackgroundProcessResults",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/datajobs/getbackgroundprocessresults?id=35c07252-cc30-42f1-be54-4c386d55e285",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"datajobs",
+						"getbackgroundprocessresults"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "35c07252-cc30-42f1-be54-4c386d55e285"
+						}
+					]
+				},
+				"description": "Get All Data Jobs - GetAllDataJobs"
+			},
+			"response": []
+		},
+		{
+			"name": "5.GetBackgroundProcessStatus",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/datajobs/getbackgroundprocessstatus?id=Test",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"datajobs",
+						"getbackgroundprocessstatus"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "Test"
+						}
+					]
+				},
+				"description": "Get All Data Jobs - GetAllDataJobs"
+			},
+			"response": []
+		},
+		{
+			"name": "6.StartBackgroundProcess",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/datajobs/startbackgroundprocess?id=fce75ba2-8020-4383-aafe-0b4cac533be6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"datajobs",
+						"startbackgroundprocess"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "fce75ba2-8020-4383-aafe-0b4cac533be6"
+						}
+					]
+				},
+				"description": "Get All Data Jobs - GetAllDataJobs"
+			},
+			"response": []
+		},
+		{
+			"name": "7.Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/datajobs/deletejob?id=6df1d9a0-5b13-43f2-904c-0b9a2ad54bc6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"datajobs",
+						"deletejob"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "6df1d9a0-5b13-43f2-904c-0b9a2ad54bc6"
+						}
+					]
+				},
+				"description": "Get All Data Jobs - GetAllDataJobs"
+			},
+			"response": []
+		},
+		{
+			"name": "8.Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": \"6df1d9a0-5b13-43f2-904c-0b9a2ad54bc6\",\r\n    \"Name\": \"DaminiJob\",\r\n    \"FilePathToProcess\": \"https://coderbyte.com/\",\r\n    \"Status\": 3,\r\n    \"Results\": [\r\n        \"Result1\",\r\n        \"Result2\",\r\n        \"Result3\"\r\n    ],\r\n    \"Links\": [\r\n        {\r\n            \"Rel\": \"help\",\r\n            \"Href\": \"https://coderbyte.com/\",\r\n            \"Action\": \"Get\",\r\n            \"Types\": [\r\n                \"text/html\"\r\n            ]\r\n        },\r\n        {\r\n            \"Rel\": \"help\",\r\n            \"Href\": \"https://google.com/\",\r\n            \"Action\": \"Get\",\r\n            \"Types\": [\r\n                \"text/html\"\r\n            ]\r\n        },\r\n        {\r\n            \"Rel\": \"help\",\r\n            \"Href\": \"https://yahoo.com/\",\r\n            \"Action\": \"Get\",\r\n            \"Types\": [\r\n                \"text/html\"\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/datajobs/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"datajobs",
+						"create"
+					]
+				},
+				"description": "Get All Data Jobs - GetAllDataJobs"
+			},
+			"response": []
+		}
+	]
+}
